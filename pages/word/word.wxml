@@ -1,0 +1,35 @@
+<scroll-view>
+  <view class="container">
+    <text class="flex-view-item">【{{date}} 题目描述】</text>
+    <text class="flex-view-item">{{content}}</text>
+    <text class="flex-view-item">\n</text>
+    <text class="flex-view-item">【input】</text>
+    <text class="flex-view-item">{{input}}</text>
+    <text class="flex-view-item">\n</text>
+    <text class="flex-view-item">【output】</text>
+    <text class="flex-view-item">{{output}}</text>
+    <text class="flex-view-item">\n</text>
+    <text class="flex-view-item">【样例一】</text>
+    <text class="flex-view-item">{{sample1}}</text>
+    <text class="flex-view-item">\n</text>
+    <text wx:if="{{showNot}}" class="flex-view-item">【样例二】</text>
+    <text wx:if="{{showNot}}" class="flex-view-item">{{sample2}}</text>
+    <text class="flex-view-item">\n</text>
+  </view>
+
+  <view class="container1">
+    <view class="button-miss" bindtap="playRecords">
+      <text class="word-miss" >今日打卡</text>
+    </view>
+  </view>
+
+  <view class="flex-row" style="display: flex" >
+    <view class=" button-pre " bindtap="pre">
+      <text class="word-miss " >前一题</text>
+    </view>
+    <view class="button-next1 " bindtap="next">
+      <text class="word-next " >后一题</text>
+    </view>
+  </view>
+
+</scroll-view>

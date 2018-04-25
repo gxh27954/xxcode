@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/word/word",
+    "pages/index/index",
+    
+    
+    "pages/settings/settings",
+    "pages/search/detail/detail",
+    "pages/settings/clause/clause",
+    "pages/settings/help/help",
+    "pages/settings/feedback/feedback"
+  ],
+  "tabBar": {
+    "backgroundColor" : "#F7F7FA",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/word/word",
+      "text": "每日编程",
+      "iconPath": "images/home.png",
+      "selectedIconPath": "images/home-selected.png"
+    },
+    
+    {
+      "pagePath": "pages/settings/settings",
+      "text": "打卡记录",
+      "iconPath": "images/settings.png",
+      "selectedIconPath": "images/settings-selected.png"
+    }]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "backgroundColor": "#EFEFF4",
+    "navigationBarBackgroundColor": "#2C2D31",
+    "navigationBarTitleText": "编程宝典",
+    "navigationBarTextStyle":"white"
+  }
+}

@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="input-container">
+    <input class="input-search" bindconfirm="search" placeholder="请输入您要查询的单词" type="text" value="{{word}}"/>
+  </view>
+
+  <!--查询历史记录数据-->
+  <view class="ddclass" style="margin-left: 50rpx;z-index:80" hidden="{{!StorageFlag}}" style="z-index:100">
+    <view wx:for="{{sercherStorage}}" wx:key="item.id">
+      <view class="liclass" style="color:#ec9e14;border-bottom:0;" id="{{item.id}}" bindtap="tapSercherStorage">
+        <text style="width:100rpx">{{item.name}}</text>
+      </view>
+    </view>
+    <view wx:if="{{sercherStorage.length!==0}}" style="text-align:center;" bindtap="clearSearchStorage">
+      <text style="text-align:center;color:red;font-size:28rpx">清空历史记录</text>
+    </view>
+  </view>
+</view>

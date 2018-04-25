@@ -1,0 +1,132 @@
+@font-face {
+font-family: Chalkboard;
+src: url('/assets/font/chalkboard.ttf'),
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  height: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  height: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  height: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+
+.word-content {
+  margin: 234rpx auto 18rpx;
+  font-family: Chalkboard;
+  font-size: 64rpx;
+}
+
+.pron-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.word-pron {
+  margin-left: 9rpx;
+  font-family: Chalkboard;
+  font-size: 36rpx;
+  color: #8F8F8F;
+}
+
+.word-definition {
+  margin-top: 194rpx;
+  font-family: Yuanti TC;
+  font-size: 30rpx;
+  color: #585858;
+}
+
+.button-miss {
+  display: flex;
+  flex-direction: column;
+  width: 500rpx;
+  height: 90rpx;
+  border: 2rpx solid #FF3030;
+  background-color: 	#FF3030;
+  border-radius: 10rpx;
+  align-items: center;
+  margin-top: 20rpx;
+  margin-bottom: 37rpx;
+}
+
+.button-pre {
+  display: flex;
+  flex-direction: column;
+  width: 300rpx;
+  height: 90rpx;
+  border: 2rpx solid #FF3030;
+  background-color: 	#FF3030;
+  border-radius: 10rpx;
+  align-items: center;
+  margin-top: 10rpx;
+  margin-bottom: 37rpx;
+}
+
+.button-next1 {
+  display: flex;
+  flex-direction: column;
+  width: 300rpx;
+  height: 90rpx;
+  border: 2rpx solid #FF3030;
+  background-color: 	#FF3030;
+  border-radius: 10rpx;
+  align-items: center;
+  margin-top: 10rpx;
+  margin-bottom: 37rpx;
+  margin-left: 200rpx;
+}
+
+.word-miss {
+  margin: auto;
+  font-family: Songti TC;
+  font-size: 40rpx;
+  color: #FFFFFF;
+}
+
+.button-next {
+  display: flex;
+  flex-direction: column;
+  width: 500rpx;
+  height: 90rpx;
+  background-color: 	#FF3030;
+  border: 2rpx solid #FF3030;
+  border-radius: 10rpx;
+  align-items: center;
+
+}
+
+.word-next {
+  margin: auto;
+  font-family: Songti TC;
+  font-size: 40rpx;
+  color: #FFFFFF;
+}

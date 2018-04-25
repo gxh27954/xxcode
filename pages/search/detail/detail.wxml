@@ -1,0 +1,11 @@
+<view class="container">
+  <view class="input-container">
+    <input class="input-search" bindconfirm="search" placeholder="请输入您要查询的单词" type="text" />
+  </view>
+  <text class="word-content">{{content}}</text>
+  <view class="pron-container">
+    <image class="pron-icon" src="/images/pron-icon.png"></image>
+    <text class="word-pron" bindtap="read">/{{pron}}/</text>
+  </view>
+  <text class="word-definition">{{definition}}</text>
+</view>

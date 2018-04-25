@@ -1,0 +1,55 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.word-content {
+  margin: 234rpx auto 18rpx;
+  font-family: Chalkboard;
+  font-size: 64rpx;
+}
+
+.input-container {
+ /* margin-top: 94rpx;*/
+  width: 80%;
+  height: 88rpx;
+  background-color: #fff;
+  display: flex;
+  border-radius: 30rpx;
+  margin-top: 10rpx;
+  flex-direction: column;
+  align-items: center;
+}
+.input-search {
+  margin: auto;
+}
+
+.pron-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.pron-icon {
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.word-pron {
+  margin-left: 9rpx;
+  font-family: Chalkboard;
+  font-size: 36rpx;
+  color: #8F8F8F;
+}
+
+.word-definition {
+  margin-top: 194rpx;
+  font-family: Yuanti TC;
+  font-size: 30rpx;
+  color: #585858;
+}
+
